@@ -1,0 +1,78 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Default Dark Modern",
+  "workbench.sideBar.location": "right",
+  "workbench.editor.showTabs": "single",
+  "editor.fontFamily": "'Monaspace Neon', monospace, 'Fira Code'",
+  "editor.fontLigatures": true,
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "auto",
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.formatOnSave": true,
+  "editor.guides.indentation": false,
+  "editor.matchBrackets": "never",
+  "indenticator.color.dark": "rgba(25indenticator5,255,255,0.3)",
+  "indenticator.width": 1,
+  "workbench.statusBar.visible": true,
+  "editor.linkedEditing": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.env.windows": {},
+  "workbench.productIconTheme": "fluent-icons",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.selectionClipboard": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, *.config.js, *.config.ts, *.config.json, .prettierignore, .prettierrc.json, .eslintrc.cjs, .eslintrc.json, .gitignore"
+  },
+  "dart.flutterSdkPath": "/Users/matiaschediek/development/flutter",
+  "github.copilot.enable": {
+    "editor": true,
+    "inlineSuggest": true
+  },
+  "redhat.telemetry.enabled": true,
+  "workbench.editorAssociations": {
+    "*.copilotmd": "vscode.markdown.preview.editor",
+    "*.fmb": "default"
+  },
+  "mcp": {
+    "servers": {
+      "filesystem": {
+        "command": "npx",
+        "args": [
+          "-y",
+          "@modelcontextprotocol/server-filesystem",
+          "/Users/matiaschediek/Desktop",
+          "/Users/matiaschediek/Projects"
+        ]
+      },
+      "adr-server": {
+        "type": "stdio",
+        "command": "npx",
+        "args": [
+          "-y",
+          "tsx",
+          "/Users/matiaschediek/Projects/personal/mcp/adr-mcp-server/src/index.ts"
+        ]
+      }
+    }
+  }
+}
